@@ -1,0 +1,65 @@
+body {
+    height: 100vh;
+   background-image: url('bg.jpg');
+}
+
+
+.link {
+    text-decoration: none;
+    font-weight: 400;
+}
+
+.chatbody {
+    color: #000;
+}
+
+.userContainer {
+    width: 200px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.chatMessage {
+    background-color: #eee;
+    border-radius: 5px;
+    width: 80%;
+    padding-left: 5px;
+}
+
+.msgContainer {
+    width: 700px;
+    height: 600px;
+    border-radius: 5px;
+    background-color: #fff;
+    overflow-y: scroll;
+}
+
+.msgInput {
+    margin-top: 20px;
+}
+
+.heading {
+    text-decoration: underline;
+    font-weight: 500;
+}
+
+.loginPage {
+    color: #fff;
+    display: block;
+    top: 0;
+    left: 0;
+    top: 20%;
+    left: 40%;
+    position: absolute;
+}
+
+.inputBlock {
+    display: block;
+}
+
+.enterBtn {
+    margin-top: 20px;
+    width: 85%;
+    border-radius: 8px;
+}

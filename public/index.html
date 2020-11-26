@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>chatScratch</title>
+</head>
+<body>
+    
+    <div class="container">
+        
+            <div class="loginPage">
+            <h1 class="heading">ChatScratch</h1>
+            <form action="chat.html" autocomplete="off" id="loginForm">
+                <label for="">Username</label>
+                <input type="text" class="inputBlock" id="nameField" placeholder="Name" name="username" required>
+                <label for="">Room</label>
+                <select name="room" id="room">
+                    <option value="Room 1">Room 1</option>
+                    <option value="Room 2">Room 2</option>
+                    <option value="Room 3">Room 3</option>
+                </select>
+                <button type="submit" class="btn-primary enterBtn" id="loginBtn">Enter</button>
+            </form>
+            </div>
+       
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qs/6.9.4/qs.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
